@@ -8,11 +8,53 @@
 /*    padding: 5px 10px;*/
 /*}*/
 
-.coffee-header{
-    text-align: center;
-    font-size: large;
+/*table {*/
+/*    border-collapse: collapse;*/
+/*    margin: 15px 0;*/
+/*}*/
+
+/*td, th {*/
+/*    border: 1px solid black;*/
+/*    padding: 5px 10px;*/
+/*}*/
+
+
+/*coolors palette: CFDBD5. E8EDDF, F5CB5C, 242423, 333533*/
+
+
+* {
+    box-sizing: border-box;
 }
 
-.divider{
+body {
+    color: #E8EDDF;
+    background-color: #333533;
+    margin: 2em;
+}
+
+.coffee-header {
+    text-align: center;
+}
+
+.coffee-header h1 {
+    font-size: 55px;
+}
+
+.divider {
     display: flex;
+    margin: 2em;
+}
+
+ul {
+    display: inline;
+    list-style-type: none
+    padding-left: 0;
+}
+
+ul li p {
+    color: rgba(207, 219, 213, .8);
+}
+
+button {
+    background-color: #F5CB5C;
 }
