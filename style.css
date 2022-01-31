@@ -45,16 +45,25 @@ body {
     margin: 2em;
 }
 
-ul {
-    display: inline;
-    list-style-type: none;
-    padding-left: 0;
-}
-
-ul li p {
-    color: rgba(207, 219, 213, .8);
-}
-
 button {
     background-color: #F5CB5C;
+}
+
+#coffees {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.coffee {
+    display: flex;
+}
+
+.coffee h2 {
+    margin-right: 11px;
+}
+
+.coffee p {
+    padding-top: 13px;
+    color: rgba(207, 219, 213, .8);
 }
