@@ -58,7 +58,7 @@ var coffees = [
 //
 // submitButton.addEventListener('click', updateCoffees);
 
-
+let something = somethingElse;
 
 let coffeeNames = ["Ram", "Shyam", "Sita", "Gita"];
 
