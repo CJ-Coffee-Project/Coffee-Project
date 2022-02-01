@@ -34,9 +34,9 @@ body {
 
 .coffee-header {
     text-align: center;
-    background-image: url("/images/coffeebeans.jpeg");
     margin-left: 15px;
     padding-right: 1em;
+    font-family: 'Quintessential', cursive;;
 }
 
 .coffee-header h1 {
@@ -69,4 +69,18 @@ button {
 .coffee p {
     padding-top: 13px;
     color: rgba(207, 219, 213, .8);
+}
+
+.coffee-header {
+    background-image: url("/images/coffeebeans.jpeg");
+    margin: 3em;
+    padding-bottom: 10px;
+    padding-top: 3px;
+}
+#coffees{
+    font-family: 'Quintessential', cursive;;
+}
+
+h2{
+    font-family: 'Quintessential', cursive;;
 }
