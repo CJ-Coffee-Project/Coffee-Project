@@ -88,6 +88,7 @@ function addCoffee(event) {
     localStorage.setItem("listOfCoffee", JSON.stringify(coffees));
 }
 
+document.addEventListener("change", updateCoffees);
 
 var submitButton = document.querySelector("#add-coffee");
 submitButton.addEventListener("click", addCoffee);
