@@ -34,10 +34,13 @@ body {
 
 .coffee-header {
     text-align: center;
+    margin-left: 15px;
+    padding-right: 1em;
+    font-family: 'Quintessential', cursive;;
 }
 
 .coffee-header h1 {
-    font-size: 55px;
+    font-size: 70px;
 }
 
 .divider {
@@ -74,4 +77,18 @@ button {
 
 .form-label {
     color: rgb(207, 219, 213);
+}
+
+.coffee-header {
+    background-image: url("/images/coffeebeans.jpeg");
+    margin: 3em;
+    padding-bottom: 10px;
+    padding-top: 3px;
+}
+#coffees{
+    font-family: 'Quintessential', cursive;;
+}
+
+h2{
+    font-family: 'Quintessential', cursive;;
 }
