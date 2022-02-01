@@ -6,6 +6,7 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Coffee!</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
 </head>
 
 
@@ -18,9 +19,11 @@
 
 <div class="container">
     <div class="row">
-        <div class="coffee-display col-7">
+        <div id="coffee-display" class="col-7">
+            <div id="img-div">
                 <div id="coffees">
                 </div>
+            </div>
         </div>
         <div class="col-5">
             <h2>Search Our Coffee</h2>
@@ -36,7 +39,8 @@
                 </div>
                 <div>
                     <label for="name-input" class="form-label"><strong>Coffee Name</strong></label>
-                    <input type="search" class="form-control mb-3 autocomplete-input" id="name-input" placeholder="Type to search...">
+                    <input type="search" class="form-control mb-3 autocomplete-input" id="name-input"
+                           placeholder="Type to search...">
                 </div>
                 <div>
                     <button id="coffee-search" name="coffee-name" type="submit" class="col-sm-12">Search</button>

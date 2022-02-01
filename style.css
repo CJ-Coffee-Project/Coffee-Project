@@ -28,6 +28,7 @@
 
 body {
     color: #E8EDDF;
+    text-shadow: 4px 4px black;
     background-color: #333533;
     margin: 2em;
 }
@@ -36,7 +37,8 @@ body {
     text-align: center;
     margin-left: 15px;
     padding-right: 1em;
-    font-family: 'Quintessential', cursive;;
+    font-family: 'Quintessential', cursive;
+    border-radius: 5px;
 }
 
 .coffee-header h1 {
@@ -48,12 +50,23 @@ body {
     margin: 2em;
 }
 
-.coffee-display {
-    margin-top: 1em;
+#img-div {
+    float: left;
+    padding: 3em;
+    background-image: url("img/pexels-juan-pablo-serrano-arenas-894695.jpg");
+    background-color: rgba(51, 53, 51, 1);
+    background-blend-mode: soft-light;
+    background-size: contain;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
     background-color: #F5CB5C;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 #coffees {
@@ -68,11 +81,13 @@ button {
 
 .coffee h3 {
     margin-right: 11px;
+    text-shadow: 4px 4px black;
 }
 
 .coffee p {
     padding-top: 12px;
     color: rgba(207, 219, 213, .8);
+    text-shadow: 4px 4px black;
 }
 
 .form-label {
@@ -85,14 +100,15 @@ button {
     padding-bottom: 10px;
     padding-top: 3px;
 }
-#coffees{
-    font-family: 'Quintessential', cursive;;
+
+#coffees {
+    font-family: 'Quintessential', cursive;
 }
 
-h2{
-    font-family: 'Quintessential', cursive;;
+h2 {
+    font-family: 'Quintessential', cursive;
 }
 
-.fa-mug-hot{
+.fa-mug-hot {
     padding-left: 15px;
 }
