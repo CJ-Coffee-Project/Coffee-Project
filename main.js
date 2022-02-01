@@ -1,9 +1,9 @@
 "use strict"
 
 function renderCoffee(coffee) {
-    var html = '<div class="coffee col-6">';
+    var html = '<div class="coffee col-sm-12 col-md-6">';
     // html += '<td>' + coffee.id + '</td>';
-    html += '<h2>' + coffee.name + '</h2>';
+    html += '<h3>' + coffee.name + '</h3>';
     html += '<p>' + coffee.roast + '</p>';
     html += '</div>';
 
@@ -63,18 +63,23 @@ var coffees = [
 ];
 
 
-var newRoast = document.querySelector("#add-roast");
-var newName = document.querySelector("#add-name").value;
 
 function newCoffee(event) {
     event.preventDefault();
-    console.log("Hello");
+    // var selectedRoast = newRoast.value;
+    var newRoast = document.querySelector("#add-roast").value;
+    var newName = document.querySelector("#add-name").value;
+    var newID = coffees[coffees.length - 1].id + 1;
+    coffees[coffees.length] = {
+        id: newID,
+        name: newName,
+        roast: newRoast
+    }
 }
 
 var submitButton = document.querySelector("#add-coffee");
 submitButton.addEventListener("click", newCoffee);
-
-
+submitButton.addEventListener("click", updateCoffees);
 
 var coffeesDiv = document.querySelector('#coffees');
 var searchButton = document.querySelector('#coffee-search');
