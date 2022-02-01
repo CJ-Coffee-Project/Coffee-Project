@@ -34,9 +34,10 @@ body {
 }
 
 .coffee-header {
+    background-image: url("/images/coffeebeans.jpeg");
     text-align: center;
     margin-left: 15px;
-    padding-right: 1em;
+    padding: 1em;
     font-family: 'Quintessential', cursive;
     border-radius: 5px;
 }
@@ -92,13 +93,6 @@ button {
 
 .form-label {
     color: rgb(207, 219, 213);
-}
-
-.coffee-header {
-    background-image: url("/images/coffeebeans.jpeg");
-    margin: 3em;
-    padding-bottom: 10px;
-    padding-top: 3px;
 }
 
 #coffees {
